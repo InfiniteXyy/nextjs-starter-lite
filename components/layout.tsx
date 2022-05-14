@@ -1,7 +1,6 @@
 import { useTheme } from 'next-themes';
 import Link from 'next/link';
-import React from 'react';
-import { useIsServer } from '../hooks';
+import { useIsServer } from '~/hooks';
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   const { setTheme, theme } = useTheme();
