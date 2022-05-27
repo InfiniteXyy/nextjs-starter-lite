@@ -4,7 +4,7 @@ specifiers:
   '@iconify-json/carbon': 1.1.5
   '@types/node': 17.0.33
   '@types/react': 18.0.9
-  '@types/react-dom': 18.0.4
+  '@types/react-dom': 18.0.5
   autoprefixer: 10.4.7
   eslint: 8.16.0
   eslint-config-next: 12.1.6
@@ -31,7 +31,7 @@ devDependencies:
   '@iconify-json/carbon': 1.1.5
   '@types/node': 17.0.33
   '@types/react': 18.0.9
-  '@types/react-dom': 18.0.4
+  '@types/react-dom': 18.0.5
   autoprefixer: 10.4.7_postcss@8.4.14
   eslint: 8.16.0
   eslint-config-next: 12.1.6_cd70e4a5d949413954ff8ae18b07cb61
@@ -277,8 +277,8 @@ packages:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
     dev: true
 
-  /@types/react-dom/18.0.4:
-    resolution: {integrity: sha512-FgTtbqPOCI3dzZPZoC2T/sx3L34qxy99ITWn4eoSA95qPyXDMH0ALoAqUp49ITniiJFsXUVBtalh/KffMpg21Q==}
+  /@types/react-dom/18.0.5:
+    resolution: {integrity: sha512-OWPWTUrY/NIrjsAPkAk1wW9LZeIjSvkXRhclsFO8CZcZGCOg2G0YZy4ft+rOyYxy8B7ui5iZzi9OkDebZ7/QSA==}
     dependencies:
       '@types/react': 18.0.9
     dev: true
