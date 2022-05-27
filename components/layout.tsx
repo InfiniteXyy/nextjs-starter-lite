@@ -9,7 +9,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     setTheme(theme === 'dark' ? 'light' : 'dark');
   }
   return (
-    <div className="text-dark-500 dark:text-light-300 max-w-200 mx-auto w-full p-2 md:p-10">
+    <div className="text-neutral-900 dark:text-neutral-100 max-w-200 mx-auto w-full p-2 md:p-10">
       <header className="flex items-center space-x-2">
         <nav className="inline-block space-x-2 text-blue-500">
           <Link href="/">Home</Link>
