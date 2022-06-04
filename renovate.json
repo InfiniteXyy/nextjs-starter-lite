@@ -1,5 +1,7 @@
 {
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base"],
   "schedule": ["every weekend"],
-  "timezone": "Asia/Shanghai"
+  "timezone": "Asia/Shanghai",
+  "automerge": true
 }
