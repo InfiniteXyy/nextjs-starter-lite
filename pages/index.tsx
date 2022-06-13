@@ -13,7 +13,7 @@ export default function Index() {
       <input
         value={input}
         onChange={(e) => setInput(e.target.value)}
-        className="border-dark-500 dark:border-light-600 my-2 border-b-2 bg-transparent transition focus:border-blue-400 focus:outline-none"
+        className="my-2 border-b-2 border-neutral-200 bg-transparent transition focus:border-blue-400  focus:outline-none dark:border-neutral-600 focus:dark:border-blue-400"
         placeholder="Your name"
       />
       <button
