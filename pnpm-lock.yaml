@@ -12,7 +12,7 @@ specifiers:
   next-themes: 0.2.0
   postcss: 8.4.14
   prettier: 2.7.1
-  prettier-plugin-organize-imports: 2.3.4
+  prettier-plugin-organize-imports: 3.0.0
   prettier-plugin-tailwindcss: 0.1.11
   react: 18.2.0
   react-dom: 18.2.0
@@ -37,7 +37,7 @@ devDependencies:
   eslint-config-next: 12.1.6_699d05d0e897151f4a13b9a6b74b579c
   postcss: 8.4.14
   prettier: 2.7.1
-  prettier-plugin-organize-imports: 2.3.4_prettier@2.7.1+typescript@4.7.4
+  prettier-plugin-organize-imports: 3.0.0_prettier@2.7.1+typescript@4.7.4
   prettier-plugin-tailwindcss: 0.1.11_prettier@2.7.1
   tailwindcss: 3.1.3
   tailwindcss-iconify: 0.0.3_tailwindcss@3.1.3
@@ -1953,8 +1953,8 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier-plugin-organize-imports/2.3.4_prettier@2.7.1+typescript@4.7.4:
-    resolution: {integrity: sha512-R8o23sf5iVL/U71h9SFUdhdOEPsi3nm42FD/oDYIZ2PQa4TNWWuWecxln6jlIQzpZTDMUeO1NicJP6lLn2TtRw==}
+  /prettier-plugin-organize-imports/3.0.0_prettier@2.7.1+typescript@4.7.4:
+    resolution: {integrity: sha512-juSCJs5TMOqGGPaN/A/1xzWFzRPH2LG1LPLCr64dzKaVnPafJdtgDNmDVlU+8A4LbQzVJg0DTvgA8swBuIUhlg==}
     peerDependencies:
       prettier: '>=2.0'
       typescript: '>=2.9'
