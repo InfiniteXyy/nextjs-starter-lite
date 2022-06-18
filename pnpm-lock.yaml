@@ -14,18 +14,18 @@ specifiers:
   prettier: 2.7.1
   prettier-plugin-organize-imports: 2.3.4
   prettier-plugin-tailwindcss: 0.1.11
-  react: 18.1.0
-  react-dom: 18.1.0
+  react: 18.2.0
+  react-dom: 18.2.0
   tailwindcss: 3.1.3
   tailwindcss-iconify: 0.0.3
   typescript: 4.7.4
   unplugin-auto-import: 0.8.8
 
 dependencies:
-  next: 12.1.6_react-dom@18.1.0+react@18.1.0
-  next-themes: 0.2.0_d30c2367b03c877b70a67c330200ac54
-  react: 18.1.0
-  react-dom: 18.1.0_react@18.1.0
+  next: 12.1.6_react-dom@18.2.0+react@18.2.0
+  next-themes: 0.2.0_d362f613b2edd8f1984208423b1dd218
+  react: 18.2.0
+  react-dom: 18.2.0_react@18.2.0
 
 devDependencies:
   '@iconify-json/carbon': 1.1.5
@@ -797,7 +797,7 @@ packages:
       eslint-plugin-jsx-a11y: 6.5.1_eslint@8.18.0
       eslint-plugin-react: 7.29.4_eslint@8.18.0
       eslint-plugin-react-hooks: 4.5.0_eslint@8.18.0
-      next: 12.1.6_react-dom@18.1.0+react@18.1.0
+      next: 12.1.6_react-dom@18.2.0+react@18.2.0
       typescript: 4.7.4
     transitivePeerDependencies:
       - eslint-import-resolver-webpack
@@ -1610,19 +1610,19 @@ packages:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
     dev: true
 
-  /next-themes/0.2.0_d30c2367b03c877b70a67c330200ac54:
+  /next-themes/0.2.0_d362f613b2edd8f1984208423b1dd218:
     resolution: {integrity: sha512-myhpDL4vadBD9YDSHiewqvzorGzB03N84e+3LxCwHRlM/hiBOaW+UsKsQojQAzC7fdcJA0l2ppveXcYaVV+hxQ==}
     peerDependencies:
       next: '*'
       react: '*'
       react-dom: '*'
     dependencies:
-      next: 12.1.6_react-dom@18.1.0+react@18.1.0
-      react: 18.1.0
-      react-dom: 18.1.0_react@18.1.0
+      next: 12.1.6_react-dom@18.2.0+react@18.2.0
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
     dev: false
 
-  /next/12.1.6_react-dom@18.1.0+react@18.1.0:
+  /next/12.1.6_react-dom@18.2.0+react@18.2.0:
     resolution: {integrity: sha512-cebwKxL3/DhNKfg9tPZDQmbRKjueqykHHbgaoG4VBRH3AHQJ2HO0dbKFiS1hPhe1/qgc2d/hFeadsbPicmLD+A==}
     engines: {node: '>=12.22.0'}
     hasBin: true
@@ -1643,9 +1643,9 @@ packages:
       '@next/env': 12.1.6
       caniuse-lite: 1.0.30001340
       postcss: 8.4.5
-      react: 18.1.0
-      react-dom: 18.1.0_react@18.1.0
-      styled-jsx: 5.0.2_react@18.1.0
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      styled-jsx: 5.0.2_react@18.2.0
     optionalDependencies:
       '@next/swc-android-arm-eabi': 12.1.6
       '@next/swc-android-arm64': 12.1.6
@@ -2000,21 +2000,21 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /react-dom/18.1.0_react@18.1.0:
-    resolution: {integrity: sha512-fU1Txz7Budmvamp7bshe4Zi32d0ll7ect+ccxNu9FlObT605GOEB8BfO4tmRJ39R5Zj831VCpvQ05QPBW5yb+w==}
+  /react-dom/18.2.0_react@18.2.0:
+    resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}
     peerDependencies:
-      react: ^18.1.0
+      react: ^18.2.0
     dependencies:
       loose-envify: 1.4.0
-      react: 18.1.0
-      scheduler: 0.22.0
+      react: 18.2.0
+      scheduler: 0.23.0
 
   /react-is/16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
     dev: true
 
-  /react/18.1.0:
-    resolution: {integrity: sha512-4oL8ivCz5ZEPyclFQXaNksK3adutVS8l2xzZU0cqEFrE9Sb7fC0EFK5uEk74wIreL1DERyjvsU915j1pcT2uEQ==}
+  /react/18.2.0:
+    resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: 1.4.0
@@ -2089,8 +2089,8 @@ packages:
       queue-microtask: 1.2.3
     dev: true
 
-  /scheduler/0.22.0:
-    resolution: {integrity: sha512-6QAm1BgQI88NPYymgGQLCZgvep4FyePDWFpXVK+zNSUgHwlqpJy8VEh8Et0KxTACS4VWwMousBElAZOH9nkkoQ==}
+  /scheduler/0.23.0:
+    resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==}
     dependencies:
       loose-envify: 1.4.0
 
@@ -2205,7 +2205,7 @@ packages:
       acorn: 8.7.1
     dev: true
 
-  /styled-jsx/5.0.2_react@18.1.0:
+  /styled-jsx/5.0.2_react@18.2.0:
     resolution: {integrity: sha512-LqPQrbBh3egD57NBcHET4qcgshPks+yblyhPlH2GY8oaDgKs8SK4C3dBh3oSJjgzJ3G5t1SYEZGHkP+QEpX9EQ==}
     engines: {node: '>= 12.0.0'}
     peerDependencies:
@@ -2218,7 +2218,7 @@ packages:
       babel-plugin-macros:
         optional: true
     dependencies:
-      react: 18.1.0
+      react: 18.2.0
 
   /supports-color/7.2.0:
     resolution: {integrity: sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==}
