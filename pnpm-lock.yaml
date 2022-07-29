@@ -16,7 +16,7 @@ specifiers:
   prettier-plugin-tailwindcss: 0.1.13
   react: 18.2.0
   react-dom: 18.2.0
-  tailwindcss: 3.1.6
+  tailwindcss: 3.1.7
   tailwindcss-iconify: 0.0.3
   typescript: 4.7.4
   unplugin-auto-import: 0.10.1
@@ -39,8 +39,8 @@ devDependencies:
   prettier: 2.7.1
   prettier-plugin-organize-imports: 3.0.0_prettier@2.7.1+typescript@4.7.4
   prettier-plugin-tailwindcss: 0.1.13_prettier@2.7.1
-  tailwindcss: 3.1.6
-  tailwindcss-iconify: 0.0.3_tailwindcss@3.1.6
+  tailwindcss: 3.1.7
+  tailwindcss-iconify: 0.0.3_tailwindcss@3.1.7
   typescript: 4.7.4
   unplugin-auto-import: 0.10.1
 
@@ -1528,8 +1528,8 @@ packages:
       type-check: 0.4.0
     dev: true
 
-  /lilconfig/2.0.5:
-    resolution: {integrity: sha512-xaYmXZtTHPAw5m+xLN8ab9C+3a8YmV3asNSPOATITbtwrfbwaLJj8h66H1WMIpALCkqsIzK3h7oQ+PdX+LQ9Eg==}
+  /lilconfig/2.0.6:
+    resolution: {integrity: sha512-9JROoBW7pobfsx+Sq2JsASvCo6Pfo6WWoUW79HuB1BCoBXD4PLWJPqDF6fNj67pqBYTbAHkE57M1kS/+L1neOg==}
     engines: {node: '>=10'}
     dev: true
 
@@ -1931,7 +1931,7 @@ packages:
       ts-node:
         optional: true
     dependencies:
-      lilconfig: 2.0.5
+      lilconfig: 2.0.6
       postcss: 8.4.14
       yaml: 1.10.2
     dev: true
@@ -2254,19 +2254,19 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /tailwindcss-iconify/0.0.3_tailwindcss@3.1.6:
+  /tailwindcss-iconify/0.0.3_tailwindcss@3.1.7:
     resolution: {integrity: sha512-yL9y6WriS3QuYtJoKS39bsp+AGsBu3Y/49T3tO4f43tQx/Ry9yLl+IZZuU8i4dYVkYb7B6Elpu5VCCbhCsZZZA==}
     peerDependencies:
       tailwindcss: '>=3.0.0 <=4'
     dependencies:
       '@iconify/utils': 1.0.32
-      tailwindcss: 3.1.6
+      tailwindcss: 3.1.7
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /tailwindcss/3.1.6:
-    resolution: {integrity: sha512-7skAOY56erZAFQssT1xkpk+kWt2NrO45kORlxFPXUt3CiGsVPhH1smuH5XoDH6sGPXLyBv+zgCKA2HWBsgCytg==}
+  /tailwindcss/3.1.7:
+    resolution: {integrity: sha512-r7mgumZ3k0InfVPpGWcX8X/Ut4xBfv+1O/+C73ar/m01LxGVzWvPxF/w6xIUPEztrCoz7axfx0SMdh8FH8ZvRQ==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     dependencies:
@@ -2279,7 +2279,7 @@ packages:
       fast-glob: 3.2.11
       glob-parent: 6.0.2
       is-glob: 4.0.3
-      lilconfig: 2.0.5
+      lilconfig: 2.0.6
       normalize-path: 3.0.0
       object-hash: 3.0.0
       picocolors: 1.0.0
