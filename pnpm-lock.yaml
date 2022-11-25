@@ -11,7 +11,7 @@ specifiers:
   next: 13.0.5
   next-themes: 0.2.1
   postcss: 8.4.19
-  prettier: 2.7.1
+  prettier: 2.8.0
   prettier-plugin-organize-imports: 3.2.1
   prettier-plugin-tailwindcss: 0.1.13
   react: 18.2.0
@@ -36,9 +36,9 @@ devDependencies:
   eslint: 8.28.0
   eslint-config-next: 13.0.5_eslint@8.28.0+typescript@4.9.3
   postcss: 8.4.19
-  prettier: 2.7.1
-  prettier-plugin-organize-imports: 3.2.1_prettier@2.7.1+typescript@4.9.3
-  prettier-plugin-tailwindcss: 0.1.13_prettier@2.7.1
+  prettier: 2.8.0
+  prettier-plugin-organize-imports: 3.2.1_prettier@2.8.0+typescript@4.9.3
+  prettier-plugin-tailwindcss: 0.1.13_prettier@2.8.0
   tailwindcss: 3.2.4
   tailwindcss-iconify: 0.0.3_tailwindcss@3.2.4
   typescript: 4.9.3
@@ -2089,7 +2089,7 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier-plugin-organize-imports/3.2.1_prettier@2.7.1+typescript@4.9.3:
+  /prettier-plugin-organize-imports/3.2.1_prettier@2.8.0+typescript@4.9.3:
     resolution: {integrity: sha512-bty7C2Ecard5EOXirtzeCAqj4FU4epeuWrQt/Z+sh8UVEpBlBZ3m3KNPz2kFu7KgRTQx/C9o4/TdquPD1jOqjQ==}
     peerDependencies:
       '@volar/vue-language-plugin-pug': ^1.0.4
@@ -2102,21 +2102,21 @@ packages:
       '@volar/vue-typescript':
         optional: true
     dependencies:
-      prettier: 2.7.1
+      prettier: 2.8.0
       typescript: 4.9.3
     dev: true
 
-  /prettier-plugin-tailwindcss/0.1.13_prettier@2.7.1:
+  /prettier-plugin-tailwindcss/0.1.13_prettier@2.8.0:
     resolution: {integrity: sha512-/EKQURUrxLu66CMUg4+1LwGdxnz8of7IDvrSLqEtDqhLH61SAlNNUSr90UTvZaemujgl3OH/VHg+fyGltrNixw==}
     engines: {node: '>=12.17.0'}
     peerDependencies:
       prettier: '>=2.2.0'
     dependencies:
-      prettier: 2.7.1
+      prettier: 2.8.0
     dev: true
 
-  /prettier/2.7.1:
-    resolution: {integrity: sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==}
+  /prettier/2.8.0:
+    resolution: {integrity: sha512-9Lmg8hTFZKG0Asr/kW9Bp8tJjRVluO8EJQVfY2T7FMw9T5jy4I/Uvx0Rca/XWf50QQ1/SS48+6IJWnrb+2yemA==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
