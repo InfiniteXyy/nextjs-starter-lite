@@ -16,7 +16,7 @@ specifiers:
   prettier-plugin-tailwindcss: 0.2.3
   react: 18.2.0
   react-dom: 18.2.0
-  tailwindcss: 3.2.6
+  tailwindcss: 3.2.7
   tailwindcss-iconify: 0.0.3
   typescript: 4.9.5
   unplugin-auto-import: 0.14.2
@@ -39,8 +39,8 @@ devDependencies:
   prettier: 2.8.4
   prettier-plugin-organize-imports: 3.2.2_prettier@2.8.4+typescript@4.9.5
   prettier-plugin-tailwindcss: 0.2.3_9b6e04cccb8da7e94b8bfc1e36933ed2
-  tailwindcss: 3.2.6
-  tailwindcss-iconify: 0.0.3_tailwindcss@3.2.6
+  tailwindcss: 3.2.7
+  tailwindcss-iconify: 0.0.3_tailwindcss@3.2.7
   typescript: 4.9.5
   unplugin-auto-import: 0.14.2
 
@@ -733,12 +733,6 @@ packages:
 
   /acorn/7.4.1:
     resolution: {integrity: sha512-nQyp0o1/mNdbTO1PO6kHkwSrmgZ0MT/jCCpNiwbUjGoRN4dlBhqJtoQuCnEOKzgTVwg0ZWiCoQy6SxMebQVh8A==}
-    engines: {node: '>=0.4.0'}
-    hasBin: true
-    dev: true
-
-  /acorn/8.8.1:
-    resolution: {integrity: sha512-7zFpHzhnqYKrkYdUjF1HI1bzd0VygEGX8lFk4k5zVMqHEoES+P+7TKI+EvLO9WVMJ8eekdO0aDEK044xTXwPPA==}
     engines: {node: '>=0.4.0'}
     hasBin: true
     dev: true
@@ -2283,7 +2277,7 @@ packages:
   /mlly/1.1.0:
     resolution: {integrity: sha512-cwzBrBfwGC1gYJyfcy8TcZU1f+dbH/T+TuOhtYP2wLv/Fb51/uV7HJQfBPtEupZ2ORLRU1EKFS/QfS3eo9+kBQ==}
     dependencies:
-      acorn: 8.8.1
+      acorn: 8.8.2
       pathe: 1.1.0
       pkg-types: 1.0.1
       ufo: 1.0.1
@@ -3034,7 +3028,7 @@ packages:
   /strip-literal/1.0.0:
     resolution: {integrity: sha512-5o4LsH1lzBzO9UFH63AJ2ad2/S2AVx6NtjOcaz+VTT2h1RiRvbipW72z8M/lxEhcPHDBQwpDrnTF7sXy/7OwCQ==}
     dependencies:
-      acorn: 8.8.1
+      acorn: 8.8.2
     dev: true
 
   /styled-jsx/5.1.1_react@18.2.0:
@@ -3081,19 +3075,19 @@ packages:
       tslib: 2.4.0
     dev: true
 
-  /tailwindcss-iconify/0.0.3_tailwindcss@3.2.6:
+  /tailwindcss-iconify/0.0.3_tailwindcss@3.2.7:
     resolution: {integrity: sha512-yL9y6WriS3QuYtJoKS39bsp+AGsBu3Y/49T3tO4f43tQx/Ry9yLl+IZZuU8i4dYVkYb7B6Elpu5VCCbhCsZZZA==}
     peerDependencies:
       tailwindcss: '>=3.0.0 <=4'
     dependencies:
       '@iconify/utils': 1.0.32
-      tailwindcss: 3.2.6
+      tailwindcss: 3.2.7
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /tailwindcss/3.2.6:
-    resolution: {integrity: sha512-BfgQWZrtqowOQMC2bwaSNe7xcIjdDEgixWGYOd6AL0CbKHJlvhfdbINeAW76l1sO+1ov/MJ93ODJ9yluRituIw==}
+  /tailwindcss/3.2.7:
+    resolution: {integrity: sha512-B6DLqJzc21x7wntlH/GsZwEXTBttVSl1FtCzC8WP4oBc/NKef7kaax5jeihkkCEWc831/5NDJ9gRNDK6NEioQQ==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     dependencies:
@@ -3277,7 +3271,7 @@ packages:
   /unplugin/1.0.1:
     resolution: {integrity: sha512-aqrHaVBWW1JVKBHmGo33T5TxeL0qWzfvjWokObHA9bYmN7eNDkwOxmLjhioHl9878qDFMAaT51XNroRyuz7WxA==}
     dependencies:
-      acorn: 8.8.1
+      acorn: 8.8.2
       chokidar: 3.5.3
       webpack-sources: 3.2.3
       webpack-virtual-modules: 0.5.0
