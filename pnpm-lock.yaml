@@ -2,7 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@iconify-json/carbon': 1.1.16
-  '@types/node': 18.15.3
+  '@types/node': 18.15.8
   '@types/react': 18.0.29
   '@types/react-dom': 18.0.11
   autoprefixer: 10.4.14
@@ -29,7 +29,7 @@ dependencies:
 
 devDependencies:
   '@iconify-json/carbon': 1.1.16
-  '@types/node': 18.15.3
+  '@types/node': 18.15.8
   '@types/react': 18.0.29
   '@types/react-dom': 18.0.11
   autoprefixer: 10.4.14_postcss@8.4.21
@@ -352,8 +352,8 @@ packages:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: true
 
-  /@types/node/18.15.3:
-    resolution: {integrity: sha512-p6ua9zBxz5otCmbpb5D3U4B5Nanw6Pk3PPyX05xnxbB/fRv71N7CPmORg7uAD5P70T0xmx1pzAx/FUfa5X+3cw==}
+  /@types/node/18.15.8:
+    resolution: {integrity: sha512-kzGNJZ57XEH7RdckxZ7wfRjB9hgZABF+NLgR1B2zogUvV0gmK0/60VYA4yb4oKZckPiiJlmmfpdqTfCN0VRX+Q==}
     dev: true
 
   /@types/prop-types/15.7.5:
