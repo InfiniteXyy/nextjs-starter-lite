@@ -28,7 +28,7 @@
     "prettier-plugin-tailwindcss": "0.2.7",
     "tailwindcss": "3.3.1",
     "tailwindcss-iconify": "0.0.3",
-    "typescript": "5.0.3",
+    "typescript": "5.0.4",
     "unplugin-auto-import": "0.15.2"
   }
 }
