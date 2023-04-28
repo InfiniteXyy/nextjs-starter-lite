@@ -3,8 +3,8 @@ lockfileVersion: 5.3
 specifiers:
   '@iconify-json/carbon': 1.1.16
   '@types/node': 18.16.2
-  '@types/react': 18.0.38
-  '@types/react-dom': 18.0.11
+  '@types/react': 18.2.0
+  '@types/react-dom': 18.2.1
   autoprefixer: 10.4.14
   eslint: 8.39.0
   eslint-config-next: 13.3.1
@@ -30,8 +30,8 @@ dependencies:
 devDependencies:
   '@iconify-json/carbon': 1.1.16
   '@types/node': 18.16.2
-  '@types/react': 18.0.38
-  '@types/react-dom': 18.0.11
+  '@types/react': 18.2.0
+  '@types/react-dom': 18.2.1
   autoprefixer: 10.4.14_postcss@8.4.23
   eslint: 8.39.0
   eslint-config-next: 13.3.1_eslint@8.39.0+typescript@5.0.4
@@ -355,14 +355,14 @@ packages:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
     dev: true
 
-  /@types/react-dom/18.0.11:
-    resolution: {integrity: sha512-O38bPbI2CWtgw/OoQoY+BRelw7uysmXbWvw3nLWO21H1HSh+GOlqPuXshJfjmpNlKiiSDG9cc1JZAaMmVdcTlw==}
+  /@types/react-dom/18.2.1:
+    resolution: {integrity: sha512-8QZEV9+Kwy7tXFmjJrp3XUKQSs9LTnE0KnoUb0YCguWBiNW0Yfb2iBMYZ08WPg35IR6P3Z0s00B15SwZnO26+w==}
     dependencies:
-      '@types/react': 18.0.38
+      '@types/react': 18.2.0
     dev: true
 
-  /@types/react/18.0.38:
-    resolution: {integrity: sha512-ExsidLLSzYj4cvaQjGnQCk4HFfVT9+EZ9XZsQ8Hsrcn8QNgXtpZ3m9vSIC2MWtx7jHictK6wYhQgGh6ic58oOw==}
+  /@types/react/18.2.0:
+    resolution: {integrity: sha512-0FLj93y5USLHdnhIhABk83rm8XEGA7kH3cr+YUlvxoUGp1xNt/DINUMvqPxLyOQMzLmZe8i4RTHbvb8MC7NmrA==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
