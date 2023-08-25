@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@iconify-json/carbon': 1.1.19
+  '@iconify-json/carbon': 1.1.20
   '@types/node': 18.17.6
   '@types/react': 18.2.20
   '@types/react-dom': 18.2.7
@@ -28,7 +28,7 @@ dependencies:
   react-dom: 18.2.0_react@18.2.0
 
 devDependencies:
-  '@iconify-json/carbon': 1.1.19
+  '@iconify-json/carbon': 1.1.20
   '@types/node': 18.17.6
   '@types/react': 18.2.20
   '@types/react-dom': 18.2.7
@@ -143,8 +143,8 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@iconify-json/carbon/1.1.19:
-    resolution: {integrity: sha512-4obFv2J5L/bIgXCKnW8Xkly47dGgPH+xbP3NZ6DRYznc8ykAo+X5z3WSAW5/ZKO9cKZzRcOnNS6DYofOZZbRCA==}
+  /@iconify-json/carbon/1.1.20:
+    resolution: {integrity: sha512-ed/3FDCjicQARWaSGIDZpaF+rWmxoSqrmHYZV2aEicufp0yciG44y9OEmArxxr/0U6bEC3zJbKMSOSw4CKeBJg==}
     dependencies:
       '@iconify/types': 1.1.0
     dev: true
